@@ -11,20 +11,12 @@ import dk.sdu.mmmi.cbse.commonasteroid.Asteroid;
 import dk.sdu.mmmi.cbse.commonasteroid.IAsteroidSplitter;
 import java.util.ArrayList;
 import java.util.List;
-import org.openide.util.lookup.ServiceProvider;
-import org.openide.util.lookup.ServiceProviders;
-
-@ServiceProviders(value = {
-    @ServiceProvider(service = IEntityProcessingService.class)
-    ,
-    @ServiceProvider(service = IGamePluginService.class)
-})
 /**
  *
  * @author Niels
  */
 public class AsteroidControlSystem implements IEntityProcessingService, IGamePluginService {
-    
+
     private List<Entity> asteroids = new ArrayList<>();
     private IAsteroidSplitter asteroidSplitter;
 
@@ -43,8 +35,11 @@ public class AsteroidControlSystem implements IEntityProcessingService, IGamePlu
 
             for (Event event : gameData.getEvents(EventType.ASTEROID_SPLIT, asteroid.getID())) {
                 if (asteroid.getLife() > 0) {
-                    asteroidSplitter.createSplitAsteroid(asteroid);
-                    start(gameData, world);
+                    for (int i = 0; i < 2; i++) {
+                        Entity newAsteroid = asteroidSplitter.createSplitAsteroid(asteroid);
+                        world.addEntity(newAsteroid);
+                        asteroids.add(newAsteroid);
+                    }
                 }
                 world.removeEntity(asteroid);
                 gameData.removeEvent(event);
@@ -70,42 +65,22 @@ public class AsteroidControlSystem implements IEntityProcessingService, IGamePlu
         asteroid.setShapeX(shapex);
         asteroid.setShapeY(shapey);
     }
-    
+
     public void setAsteroidSplitter(IAsteroidSplitter asteroidSplitter) {
         this.asteroidSplitter = asteroidSplitter;
     }
-    
+
     public void removeAsteroidSplitter(IAsteroidSplitter asteroidSplitter) {
         this.asteroidSplitter = null;
     }
-    
+
     @Override
     public void start(GameData gameData, World world) {
-        Entity asteroid;
-        for (Event event : gameData.getEvents()) {
-            if (event.getType().equals(EventType.ASTEROID_SPLIT)) { // creates two new, smaller asteroids
-                for (int i = 0; i < 2; i++) {
-                    asteroid = createSplittingAsteroid(world.getEntity(event.getEntityID()));
-                    world.addEntity(asteroid);
-                    asteroids.add(asteroid);
-                }
-                return;
-            }
-        }
         for (int i = 0; i < (int) (Math.random() * 5) + 1; i++) { // creates a random amount of asteroids between 1 and 6, at the start
-            asteroid = createWholeAsteroid(gameData);
+            Entity asteroid = createWholeAsteroid(gameData);
             world.addEntity(asteroid);
             asteroids.add(asteroid);
         }
-    }
-
-    private Entity createSplittingAsteroid(Entity parent) {
-        Entity asteroid = new Entity();
-        asteroid.setPosition(parent.getX(), parent.getY());
-        asteroid.setRadius(parent.getRadius() / 2);
-        asteroid.setLife(1);
-        setAsteroidAttributes(asteroid);
-        return asteroid;
     }
 
     private Entity createWholeAsteroid(GameData gameData) {
@@ -113,11 +88,6 @@ public class AsteroidControlSystem implements IEntityProcessingService, IGamePlu
         asteroid.setPosition((float) Math.random() * gameData.getDisplayWidth(), (float) Math.random() * gameData.getDisplayHeight());
         asteroid.setRadius(((int) (Math.random() * 10) + 10));
         asteroid.setLife(2);
-        setAsteroidAttributes(asteroid);
-        return asteroid;
-    }
-
-    private void setAsteroidAttributes(Entity asteroid) {
         asteroid.setMaxSpeed(((float) Math.random() * 120) + 10);
         asteroid.setRadians((float) Math.random() * 3.1415f * 2);
         asteroid.setRotationSpeed((int) (Math.random() * 3) - 1); //-1, 0 eller 1
@@ -129,6 +99,7 @@ public class AsteroidControlSystem implements IEntityProcessingService, IGamePlu
             dists[i] = (float) (Math.random() * (asteroid.getRadius() / 2)) + (asteroid.getRadius() / 2);
         }
         asteroid.setDists(dists);
+        return asteroid;
     }
 
     @Override

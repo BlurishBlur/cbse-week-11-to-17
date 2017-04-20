@@ -71,8 +71,9 @@
         <module>CommonEnemy</module>
         <module>CommonAsteroid</module>
         <module>CommonBullet</module>
-        <module>mavenproject1/CommonPlayer</module>
+        <module>CommonPlayer</module>
     <module>OSGiAsteroid</module>
+    <module>OSGiAsteriodSplitter</module>
   </modules>
 
     <properties>

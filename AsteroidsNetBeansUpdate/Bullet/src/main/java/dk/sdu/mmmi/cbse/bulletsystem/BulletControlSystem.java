@@ -1,13 +1,15 @@
 package dk.sdu.mmmi.cbse.bulletsystem;
 
 import dk.sdu.mmmi.cbse.common.data.Entity;
-import dk.sdu.mmmi.cbse.common.data.EntityType;
 import dk.sdu.mmmi.cbse.common.data.GameData;
 import dk.sdu.mmmi.cbse.common.data.GameKeys;
 import dk.sdu.mmmi.cbse.common.data.World;
 import dk.sdu.mmmi.cbse.common.events.Event;
 import dk.sdu.mmmi.cbse.common.events.EventType;
 import dk.sdu.mmmi.cbse.common.services.IEntityProcessingService;
+import dk.sdu.mmmi.cbse.commonbullet.Bullet;
+import dk.sdu.mmmi.cbse.commonenemy.Enemy;
+import dk.sdu.mmmi.cbse.commonplayer.Player;
 import org.openide.util.lookup.ServiceProvider;
 import org.openide.util.lookup.ServiceProviders;
 
@@ -24,13 +26,13 @@ public class BulletControlSystem implements IEntityProcessingService {
 
     @Override
     public void process(GameData gameData, World world) {
-        if (!world.getEntities(EntityType.PLAYER).isEmpty() && gameData.getKeys().isPressed(GameKeys.SPACE)) {
-            gameData.addEvent(new Event(EventType.PLAYER_SHOOT, world.getEntities(EntityType.PLAYER).get(0).getID()));
+        if (!world.getEntities(Player.class).isEmpty() && gameData.getKeys().isPressed(GameKeys.SPACE)) {
+            gameData.addEvent(new Event(EventType.PLAYER_SHOOT, world.getEntities(Player.class).get(0).getID()));
         }
-        if (!world.getEntities(EntityType.ENEMY).isEmpty()) {
+        if (!world.getEntities(Enemy.class).isEmpty()) {
             enemyShootTimer--;
             if (enemyShootTimer < 0) {
-                gameData.addEvent(new Event(EventType.ENEMY_SHOOT, world.getEntities(EntityType.ENEMY).get(0).getID()));
+                gameData.addEvent(new Event(EventType.ENEMY_SHOOT, world.getEntities(Enemy.class).get(0).getID()));
                 enemyShootTimer = (int) (Math.random() * 90) + 10;
             }
         }
@@ -43,7 +45,7 @@ public class BulletControlSystem implements IEntityProcessingService {
         }
 
         float dt = gameData.getDelta();
-        for (Entity bullet : world.getEntities(EntityType.BULLET)) {
+        for (Entity bullet : world.getEntities(Bullet.class)) {
             bullet.setX(bullet.getX() + bullet.getDx() * dt);
             bullet.setY(bullet.getY() + bullet.getDy() * dt);
 
@@ -71,8 +73,7 @@ public class BulletControlSystem implements IEntityProcessingService {
     }
 
     private void createBullet(World world, Entity owner) {
-        Entity newBullet = new Entity();
-        newBullet.setType(EntityType.BULLET);
+        Entity newBullet = new Bullet();
         
         newBullet.setExpiration(1);
 

@@ -1,12 +1,12 @@
 package dk.sdu.mmmi.cbse.player;
 
 import dk.sdu.mmmi.cbse.common.data.Entity;
-import dk.sdu.mmmi.cbse.common.data.EntityType;
 import dk.sdu.mmmi.cbse.common.data.GameData;
 import dk.sdu.mmmi.cbse.common.data.GameKeys;
 import dk.sdu.mmmi.cbse.common.data.World;
 import dk.sdu.mmmi.cbse.common.services.IEntityProcessingService;
 import dk.sdu.mmmi.cbse.common.services.IGamePluginService;
+import dk.sdu.mmmi.cbse.commonplayer.Player;
 import org.openide.util.lookup.ServiceProvider;
 import org.openide.util.lookup.ServiceProviders;
 
@@ -27,7 +27,7 @@ public class PlayerControlSystem implements IEntityProcessingService, IGamePlugi
 
     @Override
     public void process(GameData gameData, World world) {
-        for (Entity player : world.getEntities(EntityType.PLAYER)) {
+        for (Entity player : world.getEntities(Player.class)) {
             GameKeys keys = gameData.getKeys();
             float dt = gameData.getDelta();
 
@@ -88,8 +88,7 @@ public class PlayerControlSystem implements IEntityProcessingService, IGamePlugi
     }
     
     private Entity createPlayerShip(GameData gameData) {
-        Entity playerShip = new Entity();
-        playerShip.setType(EntityType.PLAYER);
+        Entity playerShip = new Player();
 
         playerShip.setPosition(gameData.getDisplayWidth() / 2, gameData.getDisplayHeight() / 2);
 

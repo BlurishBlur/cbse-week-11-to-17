@@ -1,12 +1,11 @@
 package dk.sdu.mmmi.cbse.enemysystem;
 
 import dk.sdu.mmmi.cbse.common.data.Entity;
-import dk.sdu.mmmi.cbse.common.data.EntityType;
-import static dk.sdu.mmmi.cbse.common.data.EntityType.ENEMY;
 import dk.sdu.mmmi.cbse.common.data.GameData;
 import dk.sdu.mmmi.cbse.common.data.World;
 import dk.sdu.mmmi.cbse.common.services.IEntityProcessingService;
 import dk.sdu.mmmi.cbse.common.services.IGamePluginService;
+import dk.sdu.mmmi.cbse.commonenemy.Enemy;
 import org.openide.util.lookup.ServiceProvider;
 import org.openide.util.lookup.ServiceProviders;
 
@@ -28,7 +27,7 @@ public class EnemyControlSystem implements IEntityProcessingService, IGamePlugin
 
     @Override
     public void process(GameData gameData, World world) {
-        for (Entity enemy : world.getEntities(EntityType.ENEMY)) {
+        for (Entity enemy : world.getEntities(Enemy.class)) {
             float dt = gameData.getDelta();
             //random movement
             actionTimer--;
@@ -101,8 +100,7 @@ public class EnemyControlSystem implements IEntityProcessingService, IGamePlugin
     }
 
     private Entity createEnemyShip(GameData gameData) {
-        Entity enemyShip = new Entity();
-        enemyShip.setType(ENEMY);
+        Entity enemyShip = new Enemy();
         
         enemyShip.setPosition((float) Math.random() * gameData.getDisplayWidth(), (float) Math.random() * gameData.getDisplayHeight());
 

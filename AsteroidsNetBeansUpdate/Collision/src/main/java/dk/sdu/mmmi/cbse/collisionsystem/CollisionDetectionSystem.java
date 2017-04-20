@@ -1,12 +1,15 @@
 package dk.sdu.mmmi.cbse.collisionsystem;
 
 import dk.sdu.mmmi.cbse.common.data.Entity;
-import dk.sdu.mmmi.cbse.common.data.EntityType;
 import dk.sdu.mmmi.cbse.common.data.GameData;
 import dk.sdu.mmmi.cbse.common.data.World;
 import dk.sdu.mmmi.cbse.common.events.Event;
 import dk.sdu.mmmi.cbse.common.events.EventType;
 import dk.sdu.mmmi.cbse.common.services.IPostEntityProcessingService;
+import dk.sdu.mmmi.cbse.commonasteroid.Asteroid;
+import dk.sdu.mmmi.cbse.commonbullet.Bullet;
+import dk.sdu.mmmi.cbse.commonenemy.Enemy;
+import dk.sdu.mmmi.cbse.commonplayer.Player;
 import org.openide.util.lookup.ServiceProvider;
 import org.openide.util.lookup.ServiceProviders;
 
@@ -21,13 +24,18 @@ public class CollisionDetectionSystem implements IPostEntityProcessingService {
 
     @Override
     public void process(GameData gameData, World world) {
-        for (Entity asteroid : world.getEntities(EntityType.ASTEROIDS)) {
-            for (Entity collider : world.getEntities(EntityType.PLAYER, EntityType.ENEMY)) {
+        for (Entity asteroid : world.getEntities(Asteroid.class)) {
+            for (Entity collider : world.getEntities(Player.class)) {
                 if (checkCollision(collider, asteroid)) {
                     collider.setLife(0);
                 }
             }
-            for (Entity bullet : world.getEntities(EntityType.BULLET)) {
+            for (Entity collider : world.getEntities(Enemy.class)) {
+                if (checkCollision(collider, asteroid)) {
+                    collider.setLife(0);
+                }
+            }
+            for (Entity bullet : world.getEntities(Bullet.class)) {
                 if (checkCollision(bullet, asteroid)) {
                     gameData.addEvent(new Event(EventType.ASTEROID_SPLIT, asteroid.getID()));
                     asteroid.setLife(asteroid.getLife() - 1);
@@ -35,8 +43,14 @@ public class CollisionDetectionSystem implements IPostEntityProcessingService {
                 }
             }
         }
-        for (Entity bullet : world.getEntities(EntityType.BULLET)) {
-            for (Entity entity : world.getEntities(EntityType.PLAYER, EntityType.ENEMY)) {
+        for (Entity bullet : world.getEntities(Bullet.class)) {
+            for (Entity entity : world.getEntities(Player.class)) {
+                if (checkCollision(bullet, entity)) {
+                    bullet.setExpiration(0);
+                    entity.setLife(entity.getLife() - 1);
+                }
+            }
+            for (Entity entity : world.getEntities(Enemy.class)) {
                 if (checkCollision(bullet, entity)) {
                     bullet.setExpiration(0);
                     entity.setLife(entity.getLife() - 1);

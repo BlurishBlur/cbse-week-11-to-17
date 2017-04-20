@@ -45,3 +45,7 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+/AsteroidsNetBeansUpdate/CommonEnemy/target/
+/AsteroidsNetBeansUpdate/OSGiAsteroid/target/
+/AsteroidsNetBeansUpdate/CommonAsteroid/target/
+/AsteroidsNetBeansUpdate/mavenproject1/CommonPlayer/target/

@@ -1,13 +1,13 @@
 package dk.sdu.mmmi.cbse.asteroidsystem;
 
 import dk.sdu.mmmi.cbse.common.data.Entity;
-import dk.sdu.mmmi.cbse.common.data.EntityType;
 import dk.sdu.mmmi.cbse.common.data.GameData;
 import dk.sdu.mmmi.cbse.common.data.World;
 import dk.sdu.mmmi.cbse.common.events.Event;
 import dk.sdu.mmmi.cbse.common.events.EventType;
 import dk.sdu.mmmi.cbse.common.services.IEntityProcessingService;
 import dk.sdu.mmmi.cbse.common.services.IGamePluginService;
+import dk.sdu.mmmi.cbse.commonasteroid.Asteroid;
 import java.util.ArrayList;
 import java.util.List;
 import org.openide.util.lookup.ServiceProvider;
@@ -28,7 +28,7 @@ public class AsteroidControlSystem implements IEntityProcessingService, IGamePlu
 
     @Override
     public void process(GameData gameData, World world) {
-        for (Entity asteroid : world.getEntities(EntityType.ASTEROIDS)) {
+        for (Entity asteroid : world.getEntities(Asteroid.class)) {
             float dt = gameData.getDelta();
             // set position
             asteroid.setRadians(asteroid.getRadians() + asteroid.getRotationSpeed() * dt);
@@ -98,7 +98,7 @@ public class AsteroidControlSystem implements IEntityProcessingService, IGamePlu
     }
 
     private Entity createWholeAsteroid(GameData gameData) {
-        Entity asteroid = new Entity();
+        Entity asteroid = new Asteroid();
         asteroid.setPosition((float) Math.random() * gameData.getDisplayWidth(), (float) Math.random() * gameData.getDisplayHeight());
         asteroid.setRadius(((int) (Math.random() * 10) + 10));
         asteroid.setLife(2);
@@ -107,7 +107,6 @@ public class AsteroidControlSystem implements IEntityProcessingService, IGamePlu
     }
 
     private void setAsteroidAttributes(Entity asteroid) {
-        asteroid.setType(EntityType.ASTEROIDS);
         asteroid.setMaxSpeed(((float) Math.random() * 120) + 10);
         asteroid.setRadians((float) Math.random() * 3.1415f * 2);
         asteroid.setRotationSpeed((int) (Math.random() * 3) - 1); //-1, 0 eller 1

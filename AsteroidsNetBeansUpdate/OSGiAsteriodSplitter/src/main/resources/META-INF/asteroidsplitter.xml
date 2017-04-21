@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<scr:component xmlns:scr="http://wwww.osgi.org/xmlns/scr/v1.1.0" name="dk.sdu.mmmi.cbse.osgiasteroidsplitter">
-    <implementation class="dk.sdu.mmmi.cbse.osgiasteroidsplitter.AsteroidControlSystem"/>
+<scr:component xmlns:scr="http://wwww.osgi.org/xmlns/scr/v1.1.0" name="dk.sdu.mmmi.cbse.osgiasteriodsplitter">
+    <implementation class="dk.sdu.mmmi.cbse.osgiasteriodsplitter.AsteroidSplitterImpl"/>
     <service>
-        <provide interface="dk.sdu.mmmi.cbse.common.services.IAsteroidSplitter"/>
+        <provide interface="dk.sdu.mmmi.cbse.commonasteroid.IAsteroidSplitter"/>
     </service>
 </scr:component>

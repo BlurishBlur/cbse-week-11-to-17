@@ -1,6 +1,6 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1492723222381
-Build-Jdk: 1.8.0_101
+Bnd-LastModified: 1492770078373
+Build-Jdk: 1.8.0_111
 Built-By: Niels
 Bundle-ActivationPolicy: lazy
 Bundle-Activator: dk.sdu.mmmi.cbse.osgienemy.Activator

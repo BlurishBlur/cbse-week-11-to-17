@@ -68,10 +68,12 @@ public class AsteroidControlSystem implements IEntityProcessingService, IGamePlu
 
     public void setAsteroidSplitter(IAsteroidSplitter asteroidSplitter) {
         this.asteroidSplitter = asteroidSplitter;
+        System.out.println("AsteroidSplitter set");
     }
 
     public void removeAsteroidSplitter(IAsteroidSplitter asteroidSplitter) {
         this.asteroidSplitter = null;
+        System.out.println("AsteroidSplitter remove");
     }
 
     @Override

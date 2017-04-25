@@ -6,11 +6,8 @@ import dk.sdu.mmmi.cbse.common.data.World;
 import dk.sdu.mmmi.cbse.common.events.Event;
 import dk.sdu.mmmi.cbse.common.events.EventType;
 import dk.sdu.mmmi.cbse.common.services.IEntityProcessingService;
-import dk.sdu.mmmi.cbse.common.services.IGamePluginService;
 import dk.sdu.mmmi.cbse.commonasteroid.Asteroid;
 import dk.sdu.mmmi.cbse.commonasteroid.IAsteroidSplitter;
-import java.util.ArrayList;
-import java.util.List;
 /**
  *
  * @author Niels

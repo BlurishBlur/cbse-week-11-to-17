@@ -41,7 +41,10 @@ public class AsteroidControlSystem implements IEntityProcessingService, IGamePlu
 
             for (Event event : gameData.getEvents(EventType.ASTEROID_SPLIT, asteroid.getID())) {
                 if (asteroid.getLife() > 0) {
-                    start(gameData, world);
+                    for (int i = 0; i < 2; i++) {
+                        Entity splitAsteroid = createSplitAsteroid(asteroid);
+                        world.addEntity(splitAsteroid);
+                    }
                 }
                 world.removeEntity(asteroid);
                 gameData.removeEvent(event);
@@ -66,6 +69,25 @@ public class AsteroidControlSystem implements IEntityProcessingService, IGamePlu
 
         asteroid.setShapeX(shapex);
         asteroid.setShapeY(shapey);
+    }
+    
+    public Entity createSplitAsteroid(Entity parent) {
+        Entity asteroid = new Asteroid();
+        asteroid.setPosition(parent.getX(), parent.getY());
+        asteroid.setRadius(parent.getRadius() / 2);
+        asteroid.setLife(1);
+        asteroid.setMaxSpeed(((float) Math.random() * 120) + 10);
+        asteroid.setRadians((float) Math.random() * 3.1415f * 2);
+        asteroid.setRotationSpeed((int) (Math.random() * 3) - 1); //-1, 0 eller 1
+        asteroid.setDx((float) Math.cos(asteroid.getRadians()) * asteroid.getMaxSpeed());
+        asteroid.setDy((float) Math.sin(asteroid.getRadians()) * asteroid.getMaxSpeed());
+        int size = (int) (asteroid.getRadius() / 2) + 5;
+        float[] dists = new float[size];
+        for (int i = 0; i < size; i++) {
+            dists[i] = (float) (Math.random() * (asteroid.getRadius() / 2)) + (asteroid.getRadius() / 2);
+        }
+        asteroid.setDists(dists);
+        return asteroid;
     }
     
     @Override

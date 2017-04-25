@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module codename="dk.sdu.mmmi.cbse.OSGiAsteroid">
-    <module_version install_time="1493136114814" last="true" origin="installer" specification_version="1.0.0.SNAPSHOT">
+    <module_version install_time="1493138225714" last="true" origin="installer" specification_version="1.0.0.SNAPSHOT">
         <file crc="365596147" name="config/Modules/dk-sdu-mmmi-cbse-OSGiAsteroid.xml"/>
-        <file crc="3053588415" name="modules/dk-sdu-mmmi-cbse-OSGiAsteroid.jar"/>
+        <file crc="2254821827" name="modules/dk-sdu-mmmi-cbse-OSGiAsteroid.jar"/>
     </module_version>
 </module>

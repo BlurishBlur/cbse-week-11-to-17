@@ -1,5 +1,5 @@
 -------------------------------------------------------------------------------
->Log Session: Friday, April 21, 2017 12:49:31 PM CEST
+>Log Session: Monday, April 24, 2017 1:47:46 PM CEST
 >System Info: 
   Product Version         = NetBeans Platform 8.1 (Build 201510222201)
   Operating System        = Windows 10 version 10.0 running on amd64
@@ -20,22 +20,19 @@
   Application Classpath   = C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\platform\lib\boot.jar;C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\platform\lib\org-openide-modules.jar;C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\platform\lib\org-openide-util-lookup.jar;C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\platform\lib\org-openide-util-ui.jar;C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\platform\lib\org-openide-util.jar;C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\platform\lib\locale\boot_ja.jar;C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\platform\lib\locale\boot_pt_BR.jar;C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\platform\lib\locale\boot_ru.jar;C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\platform\lib\locale\boot_zh_CN.jar;C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\platform\lib\locale\org-openide-modules_ja.jar;C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\platform\lib\locale\org-openide-modules_pt_BR.jar;C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\platform\lib\locale\org-openide-modules_ru.jar;C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\platform\lib\locale\org-openide-modules_zh_CN.jar;C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\platform\lib\locale\org-openide-util-lookup_ja.jar;C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\platform\lib\locale\org-openide-util-lookup_pt_BR.jar;C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\platform\lib\locale\org-openide-util-lookup_ru.jar;C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\platform\lib\locale\org-openide-util-lookup_zh_CN.jar;C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\platform\lib\locale\org-openide-util-ui_ja.jar;C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\platform\lib\locale\org-openide-util-ui_pt_BR.jar;C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\platform\lib\locale\org-openide-util-ui_ru.jar;C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\platform\lib\locale\org-openide-util-ui_zh_CN.jar;C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\platform\lib\locale\org-openide-util_ja.jar;C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\platform\lib\locale\org-openide-util_pt_BR.jar;C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\platform\lib\locale\org-openide-util_ru.jar;C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\platform\lib\locale\org-openide-util_zh_CN.jar;C:\Program Files\Java\jdk1.8.0_111\lib\dt.jar;C:\Program Files\Java\jdk1.8.0_111\lib\tools.jar
   Startup Classpath       = C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\platform\core\asm-all-5.0.1.jar;C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\platform\core\core-base.jar;C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\platform\core\core.jar;C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\platform\core\org-netbeans-libs-asm.jar;C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\platform\core\org-openide-filesystems.jar;C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\platform\core\locale\core-base_ja.jar;C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\platform\core\locale\core-base_pt_BR.jar;C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\platform\core\locale\core-base_ru.jar;C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\platform\core\locale\core-base_zh_CN.jar;C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\platform\core\locale\core_ja.jar;C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\platform\core\locale\core_pt_BR.jar;C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\platform\core\locale\core_ru.jar;C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\platform\core\locale\core_zh_CN.jar;C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\platform\core\locale\org-netbeans-libs-asm_ja.jar;C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\platform\core\locale\org-netbeans-libs-asm_pt_BR.jar;C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\platform\core\locale\org-netbeans-libs-asm_ru.jar;C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\platform\core\locale\org-netbeans-libs-asm_zh_CN.jar;C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\platform\core\locale\org-openide-filesystems_ja.jar;C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\platform\core\locale\org-openide-filesystems_pt_BR.jar;C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\platform\core\locale\org-openide-filesystems_ru.jar;C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\platform\core\locale\org-openide-filesystems_zh_CN.jar
 -------------------------------------------------------------------------------
-INFO [org.netbeans.core.startup.NbEvents]: Module patch or custom extension: C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\..\..\..\SilentUpdate\target\classes
+INFO [org.netbeans.core.startup.NbEvents]: Module patch or custom extension: C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\..\..\..\Common\target\classes
 INFO [org.netbeans.core.startup.NbEvents]: Module patch or custom extension: C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\..\..\..\OSGiExtender\target\classes
+INFO [org.netbeans.core.startup.NbEvents]: Module patch or custom extension: C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\..\..\..\Core\target\classes
 INFO [org.netbeans.core.startup.NbEvents]: Module patch or custom extension: C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\..\..\..\CommonAsteroid\target\classes
+INFO [org.netbeans.core.startup.NbEvents]: Module patch or custom extension: C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\..\..\..\Collision\target\classes
+INFO [org.netbeans.core.startup.NbEvents]: Module patch or custom extension: C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\..\..\..\Bullet\target\classes
 INFO [org.netbeans.modules.netbinox]: Install area set to file:/C:/Users/Niels/Dropbox/Java projekter/cbse-week-11-to-17/AsteroidsNetBeansUpdate/application/target/asteroidsnetbeansupdate/
-INFO [org.netbeans.core.modules]: Using file:/C:/Users/Niels/Dropbox/Java%20projekter/cbse-week-11-to-17/AsteroidsNetBeansUpdate/application/target/asteroidsnetbeansupdate/../../../SilentUpdate/target/classes/org/netbeans/modules/autoupdate/silentupdate/resources/layer.xml as layer for dk.sdu.mmmi.cbse.SilentUpdate not jar:file:/C:/Users/Niels/Dropbox/Java%20projekter/cbse-week-11-to-17/AsteroidsNetBeansUpdate/application/target/asteroidsnetbeansupdate/asteroidsnetbeansupdate/modules/dk-sdu-mmmi-cbse-SilentUpdate.jar!/org/netbeans/modules/autoupdate/silentupdate/resources/layer.xml
 INFO [org.netbeans.core.startup.NbEvents]: Turning on modules:
 	org.openide.util.lookup [8.32.1 201510222201]
 	org.openide.util [9.5.1 201510222201]
 	org.openide.util.ui [9.4.1 201510222201]
 	org.openide.modules [7.47.1 201510222201]
-	org.netbeans.api.annotations.common/1 [1.26.1 201510222201]
 	org.openide.filesystems [9.8.1 201510222201]
-	org.netbeans.api.intent [1.1.1 201510222201]
-	org.netbeans.api.io [1.2.1 201510222201]
-	org.openide.io [1.48.1 201510222201]
-	org.openide.awt [7.65.1 201510222201]
 	org.netbeans.libs.asm [5.2.1 201510222201]
 	org.netbeans.bootstrap/1 [2.74.1 201510222201]
 	org.netbeans.core.startup.base [1.61.1.1 1 201510222201]
@@ -43,139 +40,21 @@ INFO [org.netbeans.core.startup.NbEvents]: Turning on modules:
 	org.netbeans.libs.osgi [1.20.1 201510222201]
 	org.netbeans.core.netigso [1.30.1 201510222201]
 	org.netbeans.modules.netbinox [1.39.1 201510222201]
-	org.netbeans.api.progress/1 [1.46.1 201510222201]
-	org.netbeans.api.progress.nb [1.46.1 201510222201]
-	org.netbeans.modules.autoupdate.services [1.51.1 201510222201]
+	org.netbeans.api.annotations.common/1 [1.26.1 201510222201]
 	org.eclipse.osgi.services [3.2.100 3.2.100.v20100503]
 	org.eclipse.equinox.util [1.0.500 1.0.500.v20130404-1337]
 	org.eclipse.equinox.ds [1.4.400 1.4.400.v20160226-2036]
-	dk.sdu.mmmi.cbse.SilentUpdate [1.0.0 1.0.0-20170421 201704211021]
+	dk.sdu.mmmi.cbse.Common [1.0.0 1.0.0-20170424 201704241146]
+	dk.sdu.mmmi.cbse.CommonPlayer [1.0.0 1.0.0-20170424 201704241147]
+	dk.sdu.mmmi.cbse.Player [1.0.0 1.0.0-20170424 201704241147]
 	dk.sdu.mmmi.cbse.OSGiAsteroid [1.0.0 1.0.0.SNAPSHOT]
 	dk.sdu.mmmi.cbse.OSGiEnemy [1.0.0 1.0.0.SNAPSHOT]
 	dk.sdu.mmmi.cbse.OSGiAsteriodSplitter [1.0.0 1.0.0.SNAPSHOT]
-	dk.sdu.mmmi.cbse.OSGiExtender [1.0.0 1.0.0-20170421 201704211048]
-	dk.sdu.mmmi.cbse.Common [1.0.0 1.0.0-20170421 201704211021]
-	dk.sdu.mmmi.cbse.CommonEnemy [1.0.0 1.0.0-20170421 201704211021]
-	dk.sdu.mmmi.cbse.CommonAsteroid [1.0.0 1.0.0-20170421 201704211021]
+	dk.sdu.mmmi.cbse.OSGiExtender [1.0.0 1.0.0-20170424 201704241147]
+	dk.sdu.mmmi.cbse.Core [1.0.0 1.0.0-20170424 201704241147]
+	dk.sdu.mmmi.cbse.CommonEnemy [1.0.0 1.0.0-20170424 201704241147]
+	dk.sdu.mmmi.cbse.CommonBullet [1.0.0 1.0.0-20170424 201704241147]
+	dk.sdu.mmmi.cbse.CommonAsteroid [1.0.0 1.0.0-20170424 201704241146]
+	dk.sdu.mmmi.cbse.Collision [1.0.0 1.0.0-20170424 201704241147]
+	dk.sdu.mmmi.cbse.Bullet [1.0.0 1.0.0-20170424 201704241147]
 INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.osgi@3.9.1.v20140110-1610 started
-INFO [org.netbeans.modules.autoupdate.silentupdate]: Update found: Enemy[dk.sdu.mmmi.cbse.Enemy/1.0.0]
-INFO [org.netbeans.modules.autoupdate.silentupdate]: Update found: Collision[dk.sdu.mmmi.cbse.Collision/1.0.0]
-INFO [org.netbeans.modules.autoupdate.silentupdate]: Update found: CommonBullet[dk.sdu.mmmi.cbse.CommonBullet/1.0.0]
-INFO [org.netbeans.modules.autoupdate.silentupdate]: Update found: Player[dk.sdu.mmmi.cbse.Player/1.0.0]
-INFO [org.netbeans.modules.autoupdate.silentupdate]: Update found: Bullet[dk.sdu.mmmi.cbse.Bullet/1.0.0]
-INFO [org.netbeans.modules.autoupdate.silentupdate]: Update found: Core[dk.sdu.mmmi.cbse.Core/1.0.0]
-INFO [org.netbeans.modules.autoupdate.silentupdate]: Update found: CommonPlayer[dk.sdu.mmmi.cbse.CommonPlayer/1.0.0]
-INFO [org.netbeans.updater]: 780: Unpacking dk-sdu-mmmi-cbse-CommonPlayer.nbm
-INFO [org.netbeans.updater]: File installed C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\asteroidsnetbeansupdate\config\Modules\dk-sdu-mmmi-cbse-CommonPlayer.xml@0
-INFO [org.netbeans.updater]: Copied file netbeans/config/Modules/dk-sdu-mmmi-cbse-CommonPlayer.xml to C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\asteroidsnetbeansupdate\config\Modules\dk-sdu-mmmi-cbse-CommonPlayer.xml
-INFO [org.netbeans.updater]: File installed C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\asteroidsnetbeansupdate\modules\dk-sdu-mmmi-cbse-CommonPlayer.jar@0
-INFO [org.netbeans.updater]: Copied file netbeans/modules/dk-sdu-mmmi-cbse-CommonPlayer.jar to C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\asteroidsnetbeansupdate\modules\dk-sdu-mmmi-cbse-CommonPlayer.jar
-INFO [org.netbeans.updater]: File C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\asteroidsnetbeansupdate\update\download\dk-sdu-mmmi-cbse-CommonPlayer.nbm deleted.
-INFO [org.netbeans.updater]: Use XML Transformer: com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl@bbf89e5
-INFO [org.netbeans.updater]: File C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\asteroidsnetbeansupdate\update_tracking\dk-sdu-mmmi-cbse-CommonPlayer.xml modified.
-INFO [org.netbeans.updater]: File installed C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\asteroidsnetbeansupdate\update_tracking\dk-sdu-mmmi-cbse-CommonPlayer.xml@0
-INFO [org.netbeans.updater]: 780: Unpacking dk-sdu-mmmi-cbse-Bullet.nbm
-INFO [org.netbeans.updater]: File installed C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\asteroidsnetbeansupdate\config\Modules\dk-sdu-mmmi-cbse-Bullet.xml@0
-INFO [org.netbeans.updater]: Copied file netbeans/config/Modules/dk-sdu-mmmi-cbse-Bullet.xml to C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\asteroidsnetbeansupdate\config\Modules\dk-sdu-mmmi-cbse-Bullet.xml
-INFO [org.netbeans.updater]: File installed C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\asteroidsnetbeansupdate\modules\dk-sdu-mmmi-cbse-Bullet.jar@0
-INFO [org.netbeans.updater]: Copied file netbeans/modules/dk-sdu-mmmi-cbse-Bullet.jar to C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\asteroidsnetbeansupdate\modules\dk-sdu-mmmi-cbse-Bullet.jar
-INFO [org.netbeans.updater]: File C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\asteroidsnetbeansupdate\update\download\dk-sdu-mmmi-cbse-Bullet.nbm deleted.
-INFO [org.netbeans.updater]: Use XML Transformer: com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl@270b4f34
-INFO [org.netbeans.updater]: File C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\asteroidsnetbeansupdate\update_tracking\dk-sdu-mmmi-cbse-Bullet.xml modified.
-INFO [org.netbeans.updater]: File installed C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\asteroidsnetbeansupdate\update_tracking\dk-sdu-mmmi-cbse-Bullet.xml@0
-INFO [org.netbeans.updater]: 780: Unpacking dk-sdu-mmmi-cbse-Collision.nbm
-INFO [org.netbeans.updater]: File installed C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\asteroidsnetbeansupdate\config\Modules\dk-sdu-mmmi-cbse-Collision.xml@0
-INFO [org.netbeans.updater]: Copied file netbeans/config/Modules/dk-sdu-mmmi-cbse-Collision.xml to C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\asteroidsnetbeansupdate\config\Modules\dk-sdu-mmmi-cbse-Collision.xml
-INFO [org.netbeans.updater]: File installed C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\asteroidsnetbeansupdate\modules\dk-sdu-mmmi-cbse-Collision.jar@0
-INFO [org.netbeans.updater]: Copied file netbeans/modules/dk-sdu-mmmi-cbse-Collision.jar to C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\asteroidsnetbeansupdate\modules\dk-sdu-mmmi-cbse-Collision.jar
-INFO [org.netbeans.updater]: File C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\asteroidsnetbeansupdate\update\download\dk-sdu-mmmi-cbse-Collision.nbm deleted.
-INFO [org.netbeans.updater]: Use XML Transformer: com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl@32f2eb6b
-INFO [org.netbeans.updater]: File C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\asteroidsnetbeansupdate\update_tracking\dk-sdu-mmmi-cbse-Collision.xml modified.
-INFO [org.netbeans.updater]: File installed C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\asteroidsnetbeansupdate\update_tracking\dk-sdu-mmmi-cbse-Collision.xml@0
-INFO [org.netbeans.updater]: 780: Unpacking dk-sdu-mmmi-cbse-Enemy.nbm
-INFO [org.netbeans.updater]: File installed C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\asteroidsnetbeansupdate\config\Modules\dk-sdu-mmmi-cbse-Enemy.xml@0
-INFO [org.netbeans.updater]: Copied file netbeans/config/Modules/dk-sdu-mmmi-cbse-Enemy.xml to C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\asteroidsnetbeansupdate\config\Modules\dk-sdu-mmmi-cbse-Enemy.xml
-INFO [org.netbeans.updater]: File installed C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\asteroidsnetbeansupdate\modules\dk-sdu-mmmi-cbse-Enemy.jar@0
-INFO [org.netbeans.updater]: Copied file netbeans/modules/dk-sdu-mmmi-cbse-Enemy.jar to C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\asteroidsnetbeansupdate\modules\dk-sdu-mmmi-cbse-Enemy.jar
-INFO [org.netbeans.updater]: File C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\asteroidsnetbeansupdate\update\download\dk-sdu-mmmi-cbse-Enemy.nbm deleted.
-INFO [org.netbeans.updater]: Use XML Transformer: com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl@3f42b97
-INFO [org.netbeans.updater]: File C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\asteroidsnetbeansupdate\update_tracking\dk-sdu-mmmi-cbse-Enemy.xml modified.
-INFO [org.netbeans.updater]: File installed C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\asteroidsnetbeansupdate\update_tracking\dk-sdu-mmmi-cbse-Enemy.xml@0
-INFO [org.netbeans.updater]: 780: Unpacking dk-sdu-mmmi-cbse-Core.nbm
-INFO [org.netbeans.updater]: File installed C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\asteroidsnetbeansupdate\config\Modules\dk-sdu-mmmi-cbse-Core.xml@0
-INFO [org.netbeans.updater]: Copied file netbeans/config/Modules/dk-sdu-mmmi-cbse-Core.xml to C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\asteroidsnetbeansupdate\config\Modules\dk-sdu-mmmi-cbse-Core.xml
-INFO [org.netbeans.updater]: File installed C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\asteroidsnetbeansupdate\modules\dk-sdu-mmmi-cbse-Core.jar@0
-INFO [org.netbeans.updater]: Copied file netbeans/modules/dk-sdu-mmmi-cbse-Core.jar to C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\asteroidsnetbeansupdate\modules\dk-sdu-mmmi-cbse-Core.jar
-INFO [org.netbeans.updater]: File installed C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\asteroidsnetbeansupdate\modules\ext\dk.sdu.mmmi.cbse.Core\com-badlogicgames-gdx\gdx-backend-lwjgl.jar@0
-INFO [org.netbeans.updater]: Copied file netbeans/modules/ext/dk.sdu.mmmi.cbse.Core/com-badlogicgames-gdx/gdx-backend-lwjgl.jar to C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\asteroidsnetbeansupdate\modules\ext\dk.sdu.mmmi.cbse.Core\com-badlogicgames-gdx\gdx-backend-lwjgl.jar
-INFO [org.netbeans.updater]: File installed C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\asteroidsnetbeansupdate\modules\ext\dk.sdu.mmmi.cbse.Core\com-badlogicgames-gdx\gdx-platform-natives-desktop.jar@0
-INFO [org.netbeans.updater]: Copied file netbeans/modules/ext/dk.sdu.mmmi.cbse.Core/com-badlogicgames-gdx/gdx-platform-natives-desktop.jar to C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\asteroidsnetbeansupdate\modules\ext\dk.sdu.mmmi.cbse.Core\com-badlogicgames-gdx\gdx-platform-natives-desktop.jar
-INFO [org.netbeans.updater]: File installed C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\asteroidsnetbeansupdate\modules\ext\dk.sdu.mmmi.cbse.Core\com-badlogicgames-gdx\gdx.jar@0
-INFO [org.netbeans.updater]: Copied file netbeans/modules/ext/dk.sdu.mmmi.cbse.Core/com-badlogicgames-gdx/gdx.jar to C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\asteroidsnetbeansupdate\modules\ext\dk.sdu.mmmi.cbse.Core\com-badlogicgames-gdx\gdx.jar
-INFO [org.netbeans.updater]: File installed C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\asteroidsnetbeansupdate\modules\ext\dk.sdu.mmmi.cbse.Core\com-badlogicgames-jlayer\jlayer.jar@0
-INFO [org.netbeans.updater]: Copied file netbeans/modules/ext/dk.sdu.mmmi.cbse.Core/com-badlogicgames-jlayer/jlayer.jar to C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\asteroidsnetbeansupdate\modules\ext\dk.sdu.mmmi.cbse.Core\com-badlogicgames-jlayer\jlayer.jar
-INFO [org.netbeans.updater]: File installed C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\asteroidsnetbeansupdate\modules\ext\dk.sdu.mmmi.cbse.Core\net-java-jinput\jinput.jar@0
-INFO [org.netbeans.updater]: Copied file netbeans/modules/ext/dk.sdu.mmmi.cbse.Core/net-java-jinput/jinput.jar to C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\asteroidsnetbeansupdate\modules\ext\dk.sdu.mmmi.cbse.Core\net-java-jinput\jinput.jar
-INFO [org.netbeans.updater]: File installed C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\asteroidsnetbeansupdate\modules\ext\dk.sdu.mmmi.cbse.Core\net-java-jutils\jutils.jar@0
-INFO [org.netbeans.updater]: Copied file netbeans/modules/ext/dk.sdu.mmmi.cbse.Core/net-java-jutils/jutils.jar to C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\asteroidsnetbeansupdate\modules\ext\dk.sdu.mmmi.cbse.Core\net-java-jutils\jutils.jar
-INFO [org.netbeans.updater]: File installed C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\asteroidsnetbeansupdate\modules\ext\dk.sdu.mmmi.cbse.Core\org-jcraft\jorbis.jar@0
-INFO [org.netbeans.updater]: Copied file netbeans/modules/ext/dk.sdu.mmmi.cbse.Core/org-jcraft/jorbis.jar to C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\asteroidsnetbeansupdate\modules\ext\dk.sdu.mmmi.cbse.Core\org-jcraft\jorbis.jar
-INFO [org.netbeans.updater]: File installed C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\asteroidsnetbeansupdate\modules\ext\dk.sdu.mmmi.cbse.Core\org-lwjgl-lwjgl\lwjgl-platform-natives-linux.jar@0
-INFO [org.netbeans.updater]: Copied file netbeans/modules/ext/dk.sdu.mmmi.cbse.Core/org-lwjgl-lwjgl/lwjgl-platform-natives-linux.jar to C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\asteroidsnetbeansupdate\modules\ext\dk.sdu.mmmi.cbse.Core\org-lwjgl-lwjgl\lwjgl-platform-natives-linux.jar
-INFO [org.netbeans.updater]: File installed C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\asteroidsnetbeansupdate\modules\ext\dk.sdu.mmmi.cbse.Core\org-lwjgl-lwjgl\lwjgl-platform-natives-osx.jar@0
-INFO [org.netbeans.updater]: Copied file netbeans/modules/ext/dk.sdu.mmmi.cbse.Core/org-lwjgl-lwjgl/lwjgl-platform-natives-osx.jar to C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\asteroidsnetbeansupdate\modules\ext\dk.sdu.mmmi.cbse.Core\org-lwjgl-lwjgl\lwjgl-platform-natives-osx.jar
-INFO [org.netbeans.updater]: File installed C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\asteroidsnetbeansupdate\modules\ext\dk.sdu.mmmi.cbse.Core\org-lwjgl-lwjgl\lwjgl-platform-natives-windows.jar@0
-INFO [org.netbeans.updater]: Copied file netbeans/modules/ext/dk.sdu.mmmi.cbse.Core/org-lwjgl-lwjgl/lwjgl-platform-natives-windows.jar to C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\asteroidsnetbeansupdate\modules\ext\dk.sdu.mmmi.cbse.Core\org-lwjgl-lwjgl\lwjgl-platform-natives-windows.jar
-INFO [org.netbeans.updater]: File installed C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\asteroidsnetbeansupdate\modules\ext\dk.sdu.mmmi.cbse.Core\org-lwjgl-lwjgl\lwjgl.jar@0
-INFO [org.netbeans.updater]: Copied file netbeans/modules/ext/dk.sdu.mmmi.cbse.Core/org-lwjgl-lwjgl/lwjgl.jar to C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\asteroidsnetbeansupdate\modules\ext\dk.sdu.mmmi.cbse.Core\org-lwjgl-lwjgl\lwjgl.jar
-INFO [org.netbeans.updater]: File installed C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\asteroidsnetbeansupdate\modules\ext\dk.sdu.mmmi.cbse.Core\org-lwjgl-lwjgl\lwjgl_util.jar@0
-INFO [org.netbeans.updater]: Copied file netbeans/modules/ext/dk.sdu.mmmi.cbse.Core/org-lwjgl-lwjgl/lwjgl_util.jar to C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\asteroidsnetbeansupdate\modules\ext\dk.sdu.mmmi.cbse.Core\org-lwjgl-lwjgl\lwjgl_util.jar
-INFO [org.netbeans.updater]: File C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\asteroidsnetbeansupdate\update\download\dk-sdu-mmmi-cbse-Core.nbm deleted.
-INFO [org.netbeans.updater]: Use XML Transformer: com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl@5bd9d1d2
-INFO [org.netbeans.updater]: File C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\asteroidsnetbeansupdate\update_tracking\dk-sdu-mmmi-cbse-Core.xml modified.
-INFO [org.netbeans.updater]: File installed C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\asteroidsnetbeansupdate\update_tracking\dk-sdu-mmmi-cbse-Core.xml@0
-INFO [org.netbeans.updater]: 780: Unpacking dk-sdu-mmmi-cbse-CommonBullet.nbm
-INFO [org.netbeans.updater]: File installed C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\asteroidsnetbeansupdate\config\Modules\dk-sdu-mmmi-cbse-CommonBullet.xml@0
-INFO [org.netbeans.updater]: Copied file netbeans/config/Modules/dk-sdu-mmmi-cbse-CommonBullet.xml to C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\asteroidsnetbeansupdate\config\Modules\dk-sdu-mmmi-cbse-CommonBullet.xml
-INFO [org.netbeans.updater]: File installed C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\asteroidsnetbeansupdate\modules\dk-sdu-mmmi-cbse-CommonBullet.jar@0
-INFO [org.netbeans.updater]: Copied file netbeans/modules/dk-sdu-mmmi-cbse-CommonBullet.jar to C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\asteroidsnetbeansupdate\modules\dk-sdu-mmmi-cbse-CommonBullet.jar
-INFO [org.netbeans.updater]: File C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\asteroidsnetbeansupdate\update\download\dk-sdu-mmmi-cbse-CommonBullet.nbm deleted.
-INFO [org.netbeans.updater]: Use XML Transformer: com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl@3639c0a5
-INFO [org.netbeans.updater]: File C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\asteroidsnetbeansupdate\update_tracking\dk-sdu-mmmi-cbse-CommonBullet.xml modified.
-INFO [org.netbeans.updater]: File installed C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\asteroidsnetbeansupdate\update_tracking\dk-sdu-mmmi-cbse-CommonBullet.xml@0
-INFO [org.netbeans.updater]: 780: Unpacking dk-sdu-mmmi-cbse-Player.nbm
-INFO [org.netbeans.updater]: File installed C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\asteroidsnetbeansupdate\config\Modules\dk-sdu-mmmi-cbse-Player.xml@0
-INFO [org.netbeans.updater]: Copied file netbeans/config/Modules/dk-sdu-mmmi-cbse-Player.xml to C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\asteroidsnetbeansupdate\config\Modules\dk-sdu-mmmi-cbse-Player.xml
-INFO [org.netbeans.updater]: File installed C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\asteroidsnetbeansupdate\modules\dk-sdu-mmmi-cbse-Player.jar@0
-INFO [org.netbeans.updater]: Copied file netbeans/modules/dk-sdu-mmmi-cbse-Player.jar to C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\asteroidsnetbeansupdate\modules\dk-sdu-mmmi-cbse-Player.jar
-INFO [org.netbeans.updater]: File C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\asteroidsnetbeansupdate\update\download\dk-sdu-mmmi-cbse-Player.nbm deleted.
-INFO [org.netbeans.updater]: Use XML Transformer: com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl@15870670
-INFO [org.netbeans.updater]: File C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\asteroidsnetbeansupdate\update_tracking\dk-sdu-mmmi-cbse-Player.xml modified.
-INFO [org.netbeans.updater]: File installed C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\asteroidsnetbeansupdate\update_tracking\dk-sdu-mmmi-cbse-Player.xml@0
-INFO [org.netbeans.updater]: File C:\Users\Niels\Dropbox\Java projekter\cbse-week-11-to-17\AsteroidsNetBeansUpdate\application\target\asteroidsnetbeansupdate\asteroidsnetbeansupdate\update\download\additional_information.xml deleted.
-INFO [org.netbeans.modules.autoupdate.silentupdate]: Install new modules done.
-Turning on modules...
-Loading module services...
-Loading modules...
-Starting modules...
-INFO [null]: Last record repeated 2 more times.
-INFO [org.netbeans.core.startup.NbEvents]: Turning on modules:
-	dk.sdu.mmmi.cbse.CommonPlayer [1.0.0 1.0.0-20170420 201704202041]
-	dk.sdu.mmmi.cbse.Player [1.0.0 1.0.0-20170420 201704202041]
-	dk.sdu.mmmi.cbse.Enemy [1.0.0 1.0.0-20170420 201704202041]
-	dk.sdu.mmmi.cbse.Core [1.0.0 1.0.0-20170420 201704202041]
-	dk.sdu.mmmi.cbse.CommonBullet [1.0.0 1.0.0-20170420 201704202041]
-	dk.sdu.mmmi.cbse.Collision [1.0.0 1.0.0-20170420 201704202041]
-	dk.sdu.mmmi.cbse.Bullet [1.0.0 1.0.0-20170420 201704202041]
-Starting modules...
-INFO [null]: Last record repeated again.
-Turning on modules...done.
-INFO [org.netbeans.modules.autoupdate.silentupdate]: None for update/install/uninstall
-SEVERE [global]
-java.lang.NullPointerException
-	at dk.sdu.mmmi.cbse.osgiasteroid.AsteroidControlSystem.process(AsteroidControlSystem.java:39)
-	at dk.sdu.mmmi.cbse.main.Game.update(Game.java:75)
-	at dk.sdu.mmmi.cbse.main.Game.render(Game.java:65)
-	at com.badlogic.gdx.backends.lwjgl.LwjglApplication.mainLoop(LwjglApplication.java:207)
-[catch] at com.badlogic.gdx.backends.lwjgl.LwjglApplication$1.run(LwjglApplication.java:114)
-INFO [org.netbeans.modules.autoupdate.silentupdate]: None for update/install/uninstall

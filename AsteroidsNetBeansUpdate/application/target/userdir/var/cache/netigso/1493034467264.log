@@ -1,0 +1,20 @@
+!SESSION 2017-04-24 13:47:48.145 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_111
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=da_DK
+
+!ENTRY dk.sdu.mmmi.cbse.OSGiAsteriodSplitter 2 0 2017-04-24 13:47:48.145
+!MESSAGE [SCR] No components were found while processing component definition file bundleentry://8.fwk2004276700/META-INF/asteroidsplitter.xml
+
+!ENTRY dk.sdu.mmmi.cbse.OSGiEnemy 2 0 2017-04-24 13:47:48.156
+!MESSAGE [SCR] No components were found while processing component definition file bundleentry://15.fwk2004276700/META-INF/entityprocessor.xml
+
+!ENTRY dk.sdu.mmmi.cbse.OSGiEnemy 2 0 2017-04-24 13:47:48.264
+!MESSAGE [SCR] No components were found while processing component definition file bundleentry://15.fwk2004276700/META-INF/gameplugin.xml
+
+!ENTRY dk.sdu.mmmi.cbse.OSGiAsteroid 2 0 2017-04-24 13:47:48.335
+!MESSAGE [SCR] No components were found while processing component definition file bundleentry://21.fwk2004276700/META-INF/entityprocessor.xml
+
+!ENTRY dk.sdu.mmmi.cbse.OSGiAsteroid 2 0 2017-04-24 13:47:48.351
+!MESSAGE [SCR] No components were found while processing component definition file bundleentry://21.fwk2004276700/META-INF/gameplugin.xml

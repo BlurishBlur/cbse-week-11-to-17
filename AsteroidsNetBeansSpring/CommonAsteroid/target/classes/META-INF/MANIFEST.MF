@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+OpenIDE-Module-Localizing-Bundle: dk/sdu/mmmi/cbse/commonasteroid/Bund
+ le.properties
+OpenIDE-Module-Specification-Version: 1.0.0
+OpenIDE-Module-Implementation-Version: 1.0.0-20170425
+OpenIDE-Module-Build-Version: 201704252103
+OpenIDE-Module: dk.sdu.mmmi.cbse.CommonAsteroid
+OpenIDE-Module-Public-Packages: dk.sdu.mmmi.cbse.commonasteroid.*
+OpenIDE-Module-Requires: org.openide.modules.ModuleFormat1
+OpenIDE-Module-Display-Category: dk.sdu.mmmi.cbse
+OpenIDE-Module-Name: CommonAsteroid
+OpenIDE-Module-Short-Description: <undefined>
+OpenIDE-Module-Long-Description: <undefined>
+OpenIDE-Module-Module-Dependencies: org.netbeans.api.annotations.commo
+ n/1 > 1.26.1, dk.sdu.mmmi.cbse.Common > 1.0.0
+

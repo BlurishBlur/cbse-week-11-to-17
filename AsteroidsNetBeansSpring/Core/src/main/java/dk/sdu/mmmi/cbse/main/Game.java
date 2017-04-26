@@ -18,12 +18,14 @@ import java.util.concurrent.CopyOnWriteArrayList;
 import org.openide.util.Lookup;
 import org.openide.util.LookupEvent;
 import org.openide.util.LookupListener;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class Game implements ApplicationListener {
 
     private static OrthographicCamera cam;
     private ShapeRenderer sr;
-    private final Lookup lookup = Lookup.getDefault();
+    private Lookup lookup;// = Lookup.getDefault();
     private List<IGamePluginService> plugins = new CopyOnWriteArrayList<>();
     private Lookup.Result<IGamePluginService> result;
     private final GameData gameData = new GameData();
@@ -43,6 +45,9 @@ public class Game implements ApplicationListener {
         Gdx.input.setInputProcessor(
                 new GameInputProcessor(gameData)
         );
+        
+        ApplicationContext context = new ClassPathXmlApplicationContext("Beans.xml");
+        //lookup = NbSpring.create(context);
         
         result = lookup.lookupResult(IGamePluginService.class);
         result.addLookupListener(lookupListener);

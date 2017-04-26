@@ -4,7 +4,7 @@ OpenIDE-Module-Localizing-Bundle: dk/sdu/mmmi/cbse/player/Bundle.prope
  rties
 OpenIDE-Module-Specification-Version: 1.0.0
 OpenIDE-Module-Implementation-Version: 1.0.0-20170426
-OpenIDE-Module-Build-Version: 201704261017
+OpenIDE-Module-Build-Version: 201704261629
 OpenIDE-Module: dk.sdu.mmmi.cbse.Player
 OpenIDE-Module-Public-Packages: -
 OpenIDE-Module-Requires: org.openide.modules.ModuleFormat1
@@ -12,8 +12,20 @@ OpenIDE-Module-Display-Category: dk.sdu.mmmi.cbse
 OpenIDE-Module-Name: Player
 OpenIDE-Module-Short-Description: <undefined>
 OpenIDE-Module-Long-Description: <undefined>
+X-Class-Path: ext/dk.sdu.mmmi.cbse.Player/org-springframework/spring-c
+ ontext.jar ext/dk.sdu.mmmi.cbse.Player/org-springframework/spring-aop
+ .jar ext/dk.sdu.mmmi.cbse.Player/aopalliance/aopalliance.jar ext/dk.s
+ du.mmmi.cbse.Player/org-springframework/spring-beans.jar ext/dk.sdu.m
+ mmi.cbse.Player/org-springframework/spring-core.jar ext/dk.sdu.mmmi.c
+ bse.Player/org-springframework/spring-expression.jar
+Maven-Class-Path: org.springframework:spring-context:4.2.5.RELEASE org
+ .springframework:spring-aop:4.2.5.RELEASE aopalliance:aopalliance:1.0
+  org.springframework:spring-beans:4.2.5.RELEASE org.springframework:s
+ pring-core:4.2.5.RELEASE org.springframework:spring-expression:4.2.5.
+ RELEASE
 OpenIDE-Module-Module-Dependencies: org.netbeans.api.annotations.commo
  n/1 > 1.26.1, dk.sdu.mmmi.cbse.Common > 1.0.0, org.openide.util.looku
  p > 8.32.1, org.openide.modules > 7.47.1, org.openide.util.ui > 9.4.1
- , dk.sdu.mmmi.cbse.CommonPlayer > 1.0.0
+ , dk.sdu.mmmi.cbse.CommonPlayer > 1.0.0, org.apache.commons.logging >
+  1.2.0, org.netbeans.libs.springframework > 1.27.1
 

@@ -19,6 +19,7 @@
                         <publicPackage>dk.sdu.mmmi.cbse.common.data</publicPackage>
                         <publicPackage>dk.sdu.mmmi.cbse.common.events</publicPackage>
                         <publicPackage>dk.sdu.mmmi.cbse.common.services</publicPackage>
+                        <publicPackage>dk.sdu.mmmi.cbse.common.util</publicPackage>
                     </publicPackages>
                 </configuration>
             </plugin>
@@ -36,6 +37,29 @@
             <groupId>org.netbeans.api</groupId>
             <artifactId>org-netbeans-api-annotations-common</artifactId>
             <version>${netbeans.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.netbeans.api</groupId>
+            <artifactId>org-openide-util-lookup</artifactId>
+            <version>RELEASE81</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-beans</artifactId>
+            <version>4.2.5.RELEASE</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>4.2.5.RELEASE</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>commons-logging</groupId>
+            <artifactId>commons-logging</artifactId>
+            <version>1.2</version>
         </dependency>
     </dependencies>
     <properties>

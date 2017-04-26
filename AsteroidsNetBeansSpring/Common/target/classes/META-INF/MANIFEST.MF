@@ -2,16 +2,29 @@ Manifest-Version: 1.0
 OpenIDE-Module-Localizing-Bundle: dk/sdu/mmmi/cbse/common/Bundle.prope
  rties
 OpenIDE-Module-Public-Packages: dk.sdu.mmmi.cbse.common.data.*, dk.sdu
- .mmmi.cbse.common.events.*, dk.sdu.mmmi.cbse.common.services.*
+ .mmmi.cbse.common.events.*, dk.sdu.mmmi.cbse.common.services.*, dk.sd
+ u.mmmi.cbse.common.util.*
 OpenIDE-Module-Specification-Version: 1.0.0
 OpenIDE-Module-Implementation-Version: 1.0.0-20170426
-OpenIDE-Module-Build-Version: 201704261017
+OpenIDE-Module-Build-Version: 201704261635
 OpenIDE-Module: dk.sdu.mmmi.cbse.Common
 OpenIDE-Module-Requires: org.openide.modules.ModuleFormat1
 OpenIDE-Module-Display-Category: dk.sdu.mmmi.cbse
 OpenIDE-Module-Name: Common
 OpenIDE-Module-Short-Description: <undefined>
 OpenIDE-Module-Long-Description: <undefined>
+X-Class-Path: ext/dk.sdu.mmmi.cbse.Common/org-springframework/spring-b
+ eans.jar ext/dk.sdu.mmmi.cbse.Common/org-springframework/spring-core.
+ jar ext/dk.sdu.mmmi.cbse.Common/org-springframework/spring-context.ja
+ r ext/dk.sdu.mmmi.cbse.Common/org-springframework/spring-aop.jar ext/
+ dk.sdu.mmmi.cbse.Common/aopalliance/aopalliance.jar ext/dk.sdu.mmmi.c
+ bse.Common/org-springframework/spring-expression.jar
+Maven-Class-Path: org.springframework:spring-beans:4.2.5.RELEASE org.s
+ pringframework:spring-core:4.2.5.RELEASE org.springframework:spring-c
+ ontext:4.2.5.RELEASE org.springframework:spring-aop:4.2.5.RELEASE aop
+ alliance:aopalliance:1.0 org.springframework:spring-expression:4.2.5.
+ RELEASE
 OpenIDE-Module-Module-Dependencies: org.netbeans.api.annotations.commo
- n/1 > 1.26.1
+ n/1 > 1.26.1, org.openide.util.lookup > 8.32.1, org.apache.commons.lo
+ gging > 1.2.0
 

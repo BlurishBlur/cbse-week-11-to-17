@@ -18,22 +18,28 @@ import org.openide.util.lookup.ServiceProviders;
 public class PlayerControlSystem implements IEntityProcessingService, IGamePluginService {
     
     private Entity player;
-    private ProcessorBean pb;
-    private PluginBean plug;
+    private IProc proc;
+    
+    public PlayerControlSystem() {
+    }
+    
+    public void setProc(IProc proc) {
+        this.proc = proc;
+        System.out.println("proc set");
+    }
     
     @Override
     public void start(GameData gameData, World world) {
-        plug.start;
         player = createPlayerShip(gameData);
         world.addEntity(player);
     }
 
     @Override
     public void process(GameData gameData, World world) {
-        pb.process();
+        proc.process(gameData, world);
         
         
-        
+        /*
         for (Entity player : world.getEntities(Player.class)) {
             GameKeys keys = gameData.getKeys();
             float dt = gameData.getDelta();
@@ -71,7 +77,7 @@ public class PlayerControlSystem implements IEntityProcessingService, IGamePlugi
             if(player.getLife() < 1) {
                 world.removeEntity(player);
             }
-        }
+        }*/
     }
     
     private void setShape(Entity player) {

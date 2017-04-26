@@ -18,15 +18,22 @@ import org.openide.util.lookup.ServiceProviders;
 public class PlayerControlSystem implements IEntityProcessingService, IGamePluginService {
     
     private Entity player;
+    private ProcessorBean pb;
+    private PluginBean plug;
     
     @Override
     public void start(GameData gameData, World world) {
+        plug.start;
         player = createPlayerShip(gameData);
         world.addEntity(player);
     }
 
     @Override
     public void process(GameData gameData, World world) {
+        pb.process();
+        
+        
+        
         for (Entity player : world.getEntities(Player.class)) {
             GameKeys keys = gameData.getKeys();
             float dt = gameData.getDelta();

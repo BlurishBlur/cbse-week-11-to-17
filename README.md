@@ -4,5 +4,5 @@
 - Week 12: Implemented the OSGi Declarative Services in the modules OSGiAsteroid and OSGiAsteroidSplitter, and the OSGi whiteboard BundleContext API has been implemented in the module OSGiEnemy in the project AsteroidsNetBeansUpdate.
 - Week 13: The EntityTypes have been refactored into Common modules, in the project AsteroidsNetBeansUpdate. LAV LIGE ALLE DE ANDRE OPGAVER FRA DEN UGE
 - Week 14: no classes
-- Week 15: INSERT SPRING STUFF HERE
+- Week 15: Spring white (getBean) and attempted Spring setter depedency injection (SpringHelper)
 - Week 16: no classes

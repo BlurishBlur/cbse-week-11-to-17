@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="dk.sdu.mmmi.cbse.Common">
-    <module_version install_time="1493224546697" last="true" origin="installer" specification_version="1.0.0">
+    <module_version install_time="1493287313292" last="true" origin="installer" specification_version="1.0.0">
         <file crc="366440228" name="config/Modules/dk-sdu-mmmi-cbse-Common.xml"/>
-        <file crc="2942552630" name="modules/dk-sdu-mmmi-cbse-Common.jar"/>
-        <file crc="964851370" name="modules/ext/dk.sdu.mmmi.cbse.Common/aopalliance/aopalliance.jar"/>
-        <file crc="2309079332" name="modules/ext/dk.sdu.mmmi.cbse.Common/org-springframework/spring-aop.jar"/>
-        <file crc="3328783702" name="modules/ext/dk.sdu.mmmi.cbse.Common/org-springframework/spring-beans.jar"/>
-        <file crc="2609739320" name="modules/ext/dk.sdu.mmmi.cbse.Common/org-springframework/spring-context.jar"/>
-        <file crc="1970988259" name="modules/ext/dk.sdu.mmmi.cbse.Common/org-springframework/spring-core.jar"/>
-        <file crc="1116699586" name="modules/ext/dk.sdu.mmmi.cbse.Common/org-springframework/spring-expression.jar"/>
+        <file crc="694252804" name="modules/dk-sdu-mmmi-cbse-Common.jar"/>
     </module_version>
 </module>

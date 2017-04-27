@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="dk.sdu.mmmi.cbse.AsteroidsNetBeansSpring.branding">
-    <module_version install_time="1493201830030" last="true" origin="installer" specification_version="1.0.0">
+    <module_version install_time="1493287298285" last="true" origin="installer" specification_version="1.0.0">
         <file crc="3513326925" name="config/Modules/dk-sdu-mmmi-cbse-AsteroidsNetBeansSpring-branding.xml"/>
-        <file crc="1681073978" name="core/locale/core_asteroidsnetbeansspring.jar"/>
-        <file crc="1892244581" name="modules/dk-sdu-mmmi-cbse-AsteroidsNetBeansSpring-branding.jar"/>
-        <file crc="1924190697" name="modules/locale/org-netbeans-core-windows_asteroidsnetbeansspring.jar"/>
-        <file crc="1640548944" name="modules/locale/org-netbeans-core_asteroidsnetbeansspring.jar"/>
+        <file crc="2260975625" name="core/locale/core_asteroidsnetbeansspring.jar"/>
+        <file crc="249407800" name="modules/dk-sdu-mmmi-cbse-AsteroidsNetBeansSpring-branding.jar"/>
+        <file crc="1431326506" name="modules/locale/org-netbeans-core-windows_asteroidsnetbeansspring.jar"/>
+        <file crc="4051016791" name="modules/locale/org-netbeans-core_asteroidsnetbeansspring.jar"/>
     </module_version>
 </module>

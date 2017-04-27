@@ -9,6 +9,8 @@ import dk.sdu.mmmi.cbse.common.services.IGamePluginService;
 import dk.sdu.mmmi.cbse.commonplayer.Player;
 import org.openide.util.lookup.ServiceProvider;
 import org.openide.util.lookup.ServiceProviders;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 @ServiceProviders(value = {
     @ServiceProvider(service = IEntityProcessingService.class)
@@ -21,6 +23,8 @@ public class PlayerControlSystem implements IEntityProcessingService, IGamePlugi
     private IProc proc;
     
     public PlayerControlSystem() {
+        ApplicationContext context = new ClassPathXmlApplicationContext("beans-whiteboard.xml");
+        proc = (IProc) context.getBean("playerProcessor");
     }
     
     public void setProc(IProc proc) {

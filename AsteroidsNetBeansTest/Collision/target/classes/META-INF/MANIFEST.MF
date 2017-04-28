@@ -5,7 +5,7 @@ OpenIDE-Module-Localizing-Bundle: dk/sdu/mmmi/cbse/collision/Bundle.pr
  operties
 OpenIDE-Module-Specification-Version: 1.0.0
 OpenIDE-Module-Implementation-Version: 1.0.0-20170428
-OpenIDE-Module-Build-Version: 201704281911
+OpenIDE-Module-Build-Version: 201704282303
 OpenIDE-Module: dk.sdu.mmmi.cbse.Collision
 OpenIDE-Module-Public-Packages: -
 OpenIDE-Module-Requires: org.openide.modules.ModuleFormat1

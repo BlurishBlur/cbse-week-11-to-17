@@ -76,7 +76,7 @@ public class CollisionDetectionSystem implements IPostEntityProcessingService {
         }
     }
 
-    private boolean checkCollision(Entity entity1, Entity entity2) {
+    public boolean checkCollision(Entity entity1, Entity entity2) {
         float a = entity1.getX() - entity2.getX();
         float b = entity1.getY() - entity2.getY();
 

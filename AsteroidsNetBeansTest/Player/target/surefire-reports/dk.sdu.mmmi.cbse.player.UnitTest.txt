@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: dk.sdu.mmmi.cbse.player.UnitTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 2.353 s <<< FAILURE! - in dk.sdu.mmmi.cbse.player.UnitTest
+testPlayerMove(dk.sdu.mmmi.cbse.player.UnitTest)  Time elapsed: 2.025 s  <<< ERROR!
+java.lang.NullPointerException
+	at dk.sdu.mmmi.cbse.player.UnitTest.testPlayerMove(UnitTest.java:59)
+

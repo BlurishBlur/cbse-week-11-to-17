@@ -87,7 +87,7 @@ public class PlayerControlSystem implements IEntityProcessingService, IGamePlugi
         player.setShapeY(shapey);
     }
     
-    private Entity createPlayerShip(GameData gameData) {
+    public Entity createPlayerShip(GameData gameData) {
         Entity playerShip = new Player();
 
         playerShip.setPosition(gameData.getDisplayWidth() / 2, gameData.getDisplayHeight() / 2);

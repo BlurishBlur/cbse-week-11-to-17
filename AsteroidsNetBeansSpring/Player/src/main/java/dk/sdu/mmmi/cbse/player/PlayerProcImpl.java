@@ -4,17 +4,17 @@ import dk.sdu.mmmi.cbse.common.data.Entity;
 import dk.sdu.mmmi.cbse.common.data.GameData;
 import dk.sdu.mmmi.cbse.common.data.GameKeys;
 import dk.sdu.mmmi.cbse.common.data.World;
+import dk.sdu.mmmi.cbse.common.services.IEntityProcessingService;
 import dk.sdu.mmmi.cbse.commonplayer.Player;
 
 /**
  *
  * @author Niels
  */
-public class PlayerProcImpl implements IProc {
+public class PlayerProcImpl implements IEntityProcessingService {
 
     @Override
     public void process(GameData gameData, World world) {
-        System.out.println("PROCESSING");
         for (Entity player : world.getEntities(Player.class)) {
             GameKeys keys = gameData.getKeys();
             float dt = gameData.getDelta();

@@ -9,6 +9,6 @@
 - Week 17: Integration tests have been implemented in the AsteroidsNetBeansTest project, under the application package. Unit tests have been implemented for the player- and collision- modules.
 
 
-skal vi lave spring setter dependency injection? virker ikke helt med lookup, da begge instantierer controlsystem klassen
-hvad skal vi aflevere fra designlab? komponent diagram? står ikke i dokumentet.
-hvad skal demo videoen bestå af?
+- skal vi lave spring setter dependency injection? virker ikke helt med lookup, da begge instantierer controlsystem klassen
+- hvad skal vi aflevere fra designlab? komponent diagram? står ikke i dokumentet.
+- hvad skal demo videoen bestå af?

@@ -12,3 +12,4 @@
 - skal vi lave spring setter dependency injection? virker ikke helt med lookup, da begge instantierer controlsystem klassen
 - hvad skal vi aflevere fra designlab? komponent diagram? står ikke i dokumentet.
 - hvad skal demo videoen bestå af?
+- hvad skal vi lave med sikulix?

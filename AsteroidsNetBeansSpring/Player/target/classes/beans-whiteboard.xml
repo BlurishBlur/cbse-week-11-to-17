@@ -11,5 +11,5 @@ http://www.springframework.org/schema/beans http://www.springframework.org/schem
                     </constructor-arg>
             </bean>
     -->
-    <bean id="playerProcessor" class="dk.sdu.mmmi.cbse.player.PlayerProcImpl"></bean>
+    <bean id="playerCreator" class="dk.sdu.mmmi.cbse.playercreator.PlayerCreatorImpl"></bean>
 </beans>

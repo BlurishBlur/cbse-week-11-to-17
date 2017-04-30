@@ -70,7 +70,8 @@
         <module>CommonAsteroid</module>
         <module>CommonBullet</module>
         <module>CommonPlayer</module>
-  </modules>
+        <module>PlayerCreator</module>
+    </modules>
 
     <properties>
         <netbeans.version>RELEASE81</netbeans.version>

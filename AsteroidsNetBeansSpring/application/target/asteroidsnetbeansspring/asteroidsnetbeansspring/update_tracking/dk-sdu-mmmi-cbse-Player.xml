@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="dk.sdu.mmmi.cbse.Player">
-    <module_version install_time="1493643768723" last="true" origin="installer" specification_version="1.0.0">
+    <module_version install_time="1493648091435" last="true" origin="installer" specification_version="1.0.0">
         <file crc="477641821" name="config/Modules/dk-sdu-mmmi-cbse-Player.xml"/>
         <file crc="1294273873" name="modules/dk-sdu-mmmi-cbse-Player.jar"/>
         <file crc="964851370" name="modules/ext/dk.sdu.mmmi.cbse.Player/aopalliance/aopalliance.jar"/>

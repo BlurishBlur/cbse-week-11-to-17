@@ -70,7 +70,6 @@
         <module>CommonAsteroid</module>
         <module>CommonBullet</module>
         <module>CommonPlayer</module>
-        <module>PlayerCreator</module>
     </modules>
 
     <properties>

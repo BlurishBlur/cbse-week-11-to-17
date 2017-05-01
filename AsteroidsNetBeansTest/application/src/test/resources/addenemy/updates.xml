@@ -60,11 +60,6 @@
     
 </module>
 
-<module codenamebase="dk.sdu.mmmi.cbse.Core" distribution="Core-1.0.0-SNAPSHOT.nbm" downloadsize="5757071" license="AF77BD25" needsrestart="false" releasedate="2017/04/25" targetcluster="asteroidsnetbeansupdate">
-    <manifest OpenIDE-Module="dk.sdu.mmmi.cbse.Core" OpenIDE-Module-Display-Category="dk.sdu.mmmi.cbse" OpenIDE-Module-Implementation-Version="1.0.0-20170425" OpenIDE-Module-Long-Description="&lt;undefined&gt;" OpenIDE-Module-Module-Dependencies="org.netbeans.api.annotations.common/1 &gt; 1.26.1, dk.sdu.mmmi.cbse.Common &gt; 1.0.0, org.openide.modules &gt; 7.47.1, org.openide.util.ui &gt; 9.4.1, org.openide.util.lookup &gt; 8.32.1" OpenIDE-Module-Name="Core" OpenIDE-Module-Requires="org.openide.modules.ModuleFormat1" OpenIDE-Module-Short-Description="&lt;undefined&gt;" OpenIDE-Module-Specification-Version="1.0.0"/>
-    
-</module>
-
 <module codenamebase="dk.sdu.mmmi.cbse.Enemy" distribution="Enemy-1.0.0-SNAPSHOT.nbm" downloadsize="6538" license="AF77BD25" needsrestart="false" releasedate="2017/04/25" targetcluster="asteroidsnetbeansupdate">
     <manifest OpenIDE-Module="dk.sdu.mmmi.cbse.Enemy" OpenIDE-Module-Display-Category="dk.sdu.mmmi.cbse" OpenIDE-Module-Implementation-Version="1.0.0-20170425" OpenIDE-Module-Long-Description="&lt;undefined&gt;" OpenIDE-Module-Module-Dependencies="org.netbeans.api.annotations.common/1 &gt; 1.26.1, dk.sdu.mmmi.cbse.Common &gt; 1.0.0, org.openide.util.lookup &gt; 8.32.1, org.openide.modules &gt; 7.47.1, org.openide.util.ui &gt; 9.4.1, dk.sdu.mmmi.cbse.CommonEnemy &gt; 1.0.0" OpenIDE-Module-Name="Enemy" OpenIDE-Module-Requires="org.openide.modules.ModuleFormat1" OpenIDE-Module-Short-Description="&lt;undefined&gt;" OpenIDE-Module-Specification-Version="1.0.0"/>
     

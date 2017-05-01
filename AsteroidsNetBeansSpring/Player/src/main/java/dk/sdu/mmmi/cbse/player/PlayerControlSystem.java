@@ -22,14 +22,9 @@ public class PlayerControlSystem implements IEntityProcessingService, IGamePlugi
     
     private Entity player;
     
-    /*public void setProc(IEntityProcessingService processor) {
-        this.processor = processor;
-        System.out.println("proc set");
-    }*/
-    
     @Override
     public void start(GameData gameData, World world) {
-        ApplicationContext context = new ClassPathXmlApplicationContext("beans-whiteboard.xml");
+        ApplicationContext context = new ClassPathXmlApplicationContext("beans.xml");
         IPlayerCreator playerCreator = (IPlayerCreator) context.getBean("playerCreator");
         player = playerCreator.create(gameData);
         world.addEntity(player);

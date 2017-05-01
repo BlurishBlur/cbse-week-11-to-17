@@ -105,12 +105,7 @@
 </module>
 
 <module codenamebase="dk.sdu.mmmi.cbse.Player" distribution="Player-1.0.0-SNAPSHOT.nbm" downloadsize="0" license="AF77BD25" needsrestart="false" releasedate="2017/05/01" targetcluster="asteroidsnetbeansspring">
-    <manifest OpenIDE-Module="dk.sdu.mmmi.cbse.Player" OpenIDE-Module-Display-Category="dk.sdu.mmmi.cbse" OpenIDE-Module-Implementation-Version="1.0.0-20170501" OpenIDE-Module-Long-Description="&lt;undefined&gt;" OpenIDE-Module-Module-Dependencies="org.netbeans.api.annotations.common/1 &gt; 1.26.1, dk.sdu.mmmi.cbse.Common &gt; 1.0.0, org.openide.util.lookup &gt; 8.32.1, org.openide.modules &gt; 7.47.1, org.openide.util.ui &gt; 9.4.1, dk.sdu.mmmi.cbse.CommonPlayer &gt; 1.0.0, org.netbeans.libs.springframework &gt; 1.27.1, dk.sdu.mmmi.cbse.PlayerCreator &gt; 1.0.0" OpenIDE-Module-Name="Player" OpenIDE-Module-Requires="org.openide.modules.ModuleFormat1" OpenIDE-Module-Short-Description="&lt;undefined&gt;" OpenIDE-Module-Specification-Version="1.0.0"/>
-    
-</module>
-
-<module codenamebase="dk.sdu.mmmi.cbse.PlayerCreator" distribution="PlayerCreator-1.0.0-SNAPSHOT.nbm" downloadsize="0" license="AF77BD25" needsrestart="false" releasedate="2017/04/30" targetcluster="asteroidsnetbeansspring">
-    <manifest OpenIDE-Module="dk.sdu.mmmi.cbse.PlayerCreator" OpenIDE-Module-Display-Category="dk.sdu.mmmi.cbse" OpenIDE-Module-Implementation-Version="1.0.0-20170430" OpenIDE-Module-Long-Description="&lt;undefined&gt;" OpenIDE-Module-Module-Dependencies="org.netbeans.api.annotations.common/1 &gt; 1.26.1, dk.sdu.mmmi.cbse.CommonPlayer &gt; 1.0.0, dk.sdu.mmmi.cbse.Common &gt; 1.0.0" OpenIDE-Module-Name="PlayerCreator" OpenIDE-Module-Requires="org.openide.modules.ModuleFormat1" OpenIDE-Module-Short-Description="&lt;undefined&gt;" OpenIDE-Module-Specification-Version="1.0.0"/>
+    <manifest OpenIDE-Module="dk.sdu.mmmi.cbse.Player" OpenIDE-Module-Display-Category="dk.sdu.mmmi.cbse" OpenIDE-Module-Implementation-Version="1.0.0-20170501" OpenIDE-Module-Long-Description="&lt;undefined&gt;" OpenIDE-Module-Module-Dependencies="org.netbeans.api.annotations.common/1 &gt; 1.26.1, dk.sdu.mmmi.cbse.Common &gt; 1.0.0, org.openide.util.lookup &gt; 8.32.1, org.openide.modules &gt; 7.47.1, org.openide.util.ui &gt; 9.4.1, dk.sdu.mmmi.cbse.CommonPlayer &gt; 1.0.0, org.netbeans.libs.springframework &gt; 1.27.1" OpenIDE-Module-Name="Player" OpenIDE-Module-Requires="org.openide.modules.ModuleFormat1" OpenIDE-Module-Short-Description="&lt;undefined&gt;" OpenIDE-Module-Specification-Version="1.0.0"/>
     
 </module>
 

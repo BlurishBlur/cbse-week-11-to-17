@@ -4,5 +4,5 @@
        xsi:schemaLocation="
 http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.0.xsd">
     
-    <bean id="playerCreator" class="dk.sdu.mmmi.cbse.playercreator.PlayerCreatorImpl"></bean>
+    <bean id="playerCreator" class="dk.sdu.mmmi.cbse.player.PlayerCreatorImpl"></bean>
 </beans>

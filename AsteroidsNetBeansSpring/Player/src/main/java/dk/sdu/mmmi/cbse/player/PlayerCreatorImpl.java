@@ -2,16 +2,14 @@ package dk.sdu.mmmi.cbse.player;
 
 import dk.sdu.mmmi.cbse.common.data.Entity;
 import dk.sdu.mmmi.cbse.common.data.GameData;
-import dk.sdu.mmmi.cbse.commonplayer.IPlayerCreator;
 import dk.sdu.mmmi.cbse.commonplayer.Player;
 
 /**
  *
  * @author Niels
  */
-public class PlayerCreatorImpl implements IPlayerCreator {
-
-    @Override
+public class PlayerCreatorImpl {
+    
     public Entity create(GameData gameData) {
         Entity playerShip = new Player();
 

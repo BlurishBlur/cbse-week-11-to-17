@@ -6,7 +6,6 @@ import dk.sdu.mmmi.cbse.common.data.GameKeys;
 import dk.sdu.mmmi.cbse.common.data.World;
 import dk.sdu.mmmi.cbse.common.services.IEntityProcessingService;
 import dk.sdu.mmmi.cbse.common.services.IGamePluginService;
-import dk.sdu.mmmi.cbse.commonplayer.IPlayerCreator;
 import dk.sdu.mmmi.cbse.commonplayer.Player;
 import org.openide.util.lookup.ServiceProvider;
 import org.openide.util.lookup.ServiceProviders;
@@ -25,7 +24,7 @@ public class PlayerControlSystem implements IEntityProcessingService, IGamePlugi
     @Override
     public void start(GameData gameData, World world) {
         ApplicationContext context = new ClassPathXmlApplicationContext("beans.xml");
-        IPlayerCreator playerCreator = (IPlayerCreator) context.getBean("playerCreator");
+        PlayerCreatorImpl playerCreator = (PlayerCreatorImpl) context.getBean("playerCreator");
         player = playerCreator.create(gameData);
         world.addEntity(player);
     }

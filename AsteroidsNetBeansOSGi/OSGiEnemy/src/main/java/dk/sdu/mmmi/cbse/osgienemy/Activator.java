@@ -6,6 +6,7 @@ import org.osgi.framework.BundleContext;
 
 public class Activator implements BundleActivator {
 
+    @Override
     public void start(BundleContext context) throws Exception {
         context.registerService(IGamePluginService.class.getName(), new EnemyControlSystem(), null);
     }

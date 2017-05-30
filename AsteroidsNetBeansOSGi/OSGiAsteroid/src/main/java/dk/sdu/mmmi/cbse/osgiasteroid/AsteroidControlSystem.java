@@ -64,7 +64,6 @@ public class AsteroidControlSystem implements IEntityProcessingService {
 
     public void setAsteroidSplitter(IAsteroidSplitter asteroidSplitter) {
         this.asteroidSplitter = asteroidSplitter;
-        System.out.println("AsteroidSplitter set");
     }
 
     public void removeAsteroidSplitter(IAsteroidSplitter asteroidSplitter) {
